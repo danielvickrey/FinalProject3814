@@ -80,7 +80,7 @@ In Battle of Azeroth, specific classes have unique buffs, similar to previous ex
 
 ## Simulation Guides
 
-#### Top gear
+##### Top gear
 The Top Gear functionality of Raidbots is by far the most involved and is able to give the most detailed output. By using the Simulationcraft addon and pasting a character's "snapshot," the interface on the Top Gear page changes. Top Gear allows for a user to simulate multiple items of gear, alongside enchant and gem preferences, and include multiple talent builds. By allowing this, a user is able to simulate potential upgrades based on if a certain group of items could result in a higher potential damage output, while taking into account for potential sockets on old or new items, enchants on items, and talents that may pull ahead based on item sets with different primary and secondary stat values.
 
 ###### Gear
@@ -101,7 +101,7 @@ The final selection shown is the talent calculator, which allows for considerati
 ##### How to effectively use Top Gear
 The main reason to utilize Top Gear is to decide whether a set of items could lead to a damage output increase. By selecting multiple items in the same slot, alongside currently equipped items, a user is able to determine approximate damage increases or decreases with changing items, while still considering enchants, gems, and talents (whether they're currently selected talents or specific options known to be more or less beneficial with different stats). Ideally, Top Gear is used to compare currently equipped items and talents to new weapons, trinkets, rings, or armor, and the enchants and gems that go along with them. A user is able to select several items to compare all at once (and increases the amount allowed to be simulated when subscribed to Raidbots).
 
-#### Gear Compare
+##### Gear Compare
 Gear Compare allows for a user to simulate items that a character does not currently possess, unlike Top Gear. Gear Compare is a great option for a user wishing to simulate the hypothetical change if an item were to be obtained and equipped. Gear Compare allows for multiple gearsets to be compared, and can be used with the Simulationcraft addon or through the Armory link.
 </br>
 *Note: If using the Armory style import, ensure the character has the correct items equipped!*
@@ -112,7 +112,7 @@ Gear Compare utilizes gearsets in order to compare different hypothetical charac
 ##### How to effectively use Gear Compare
 The best use of Gear Compare is typically comparing a character, as is, to a hypothetical gearset with a new item--a weapon, trinket, or piece of Azerite armor, for example. This allows users to see how large of an impact a single item upgrade could be. It is possible to swap multiple items out in a new gearset, though typically used to simulate one major or targeted upgrade, like on-use trinkets or specific weapon(s).
 
-#### Talent Compare
+##### Talent Compare
 Talent Compare is similar to Gear Compare, but is solely for comparison of talent choices. Talent Compare allows for talent sets to be chosen and simulated against one another when compared to the character's currently chosen talents.
 
 ###### Talent Sets
@@ -121,13 +121,13 @@ Talent Sets can be chosen in two separate ways: by using the "DUPLICATE TALENT S
 ##### How to effectively use Talent Compare
 Talent Compare is a relatively cut-and-dry option to simply decide which talent options are best for the specific encounter style chosen to simulate. The simplest way to create new talent sets is typically to use the "DUPLICATE TALENT SET" button, then change specific talents one by one, creating a comparison of at least two different sets.
 
-#### Quick Sim
+##### Quick Sim
 Quick Sim allows a user to simulate a character's damage output based on parameters previously mentioned in Simulation Options. There are no options besides the ones covered previously.
 
 ##### How to effectively use Quick Sim
 A user is able to select the type of encounter, the duration, and number of bosses to be simulated very quickly in Quick Sim. This option is best used for a quick number crunch to determine the potential damage output of a character for a pre-determined fight. This can be helpful when attempting encounters that have damage checks, as players can utilize this method to check their own damage output and consider if the results are satisfactory for the encounter.
 
-#### Stat Weights
+##### Stat Weights
 Stat Weights allows for a user to simulate the potential damage increase a character could receive if they had 1 additional point of a stat. Stat weights are commonly used to determine what stats are best for a specific character and to determine if an item is an upgrade.
 
 ##### How to effectively use Stat Weights
@@ -137,3 +137,23 @@ Analyzing Stat Weights can be beneficial to determine the best items to aim for 
 Advanced is typically only used by power users with specific parameters or action priority lists to simulate. For example, a user wishing to simulate a specific length fight with specific add spawning or movement parameters could insert them using the syntax SimulationCraft uses to recreate a known encounter as a simulation option. Unique fights like M.O.T.H.E.R. are a great example, as a character's damage can be largely changed by in-fight events like movement patterns and downtime where a character is unable to attack the boss.
 
 ## Understanding Simulation Results
+After running a simulation through Raidbots a new page appears, including the results and simulation details. The new page displays the character's portrait (via WoW Armory) along with the simulation's damage values, class and spec, simulation style, gear, and talents all at the top of the page. Depending on the style of simulation done, the following results can vary, depending on parameters simulated, like Top Gear or Talent Compare.
+
+##### Top Gear
+When viewing a Top Gear result page, the window immediately following the character information shows optimal talents and items to be used to maximize the character's damage. Any equipped items are listed normally, while items not currently equipped are highlighted. 
+</br>
+Below the optimal gear and talent window, there are all simulated sets of talents and gear, including sub-optimal sets. If the equipped set of gear and talents is sub-optimal, it will be listed below the optimal set window, with the "Equipped" text on the appropriate line.
+
+##### Talent Compare
+When viewing a Talent Compare result page, the character's optimal and sub-optimal talent sets will be listed, similarly to Top Gear's result layout. The results outline the appropriate optimal talent set with sub-optimal following, showing the simulated damage and percent difference listed as well.
+
+##### Stat Weights
+When viewing a Stat Weights result page, the character's gear and talents are presented, followed by a Stat Weights panel. This panel lists primary and secodary stat weights, including the damage per second gain for acquiring one additional point in each stat. These are beneficial to determine which stats are most useful for a character, but is not to be relied on heavily as stat weights change constantly based on other stat values.
+</br>
+Below the stat weight panel is a panel titled "Pawn String" with text inside. This allows users to copy a stat weight string to an in-game addon that shows upgrades based on current stat weights.
+
+
+
+
+
+
