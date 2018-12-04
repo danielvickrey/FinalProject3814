@@ -141,7 +141,6 @@ After running a simulation through Raidbots a new page appears, including the re
 
 ##### Top Gear
 When viewing a Top Gear result page, the window immediately following the character information shows optimal talents and items to be used to maximize the character's damage. Any equipped items are listed normally, while items not currently equipped are highlighted. 
-</br>
 Below the optimal gear and talent window, there are all simulated sets of talents and gear, including sub-optimal sets. If the equipped set of gear and talents is sub-optimal, it will be listed below the optimal set window, with the "Equipped" text on the appropriate line.
 
 ##### Talent Compare
@@ -149,7 +148,6 @@ When viewing a Talent Compare result page, the character's optimal and sub-optim
 
 ##### Stat Weights
 When viewing a Stat Weights result page, the character's gear and talents are presented, followed by a Stat Weights panel. This panel lists primary and secodary stat weights, including the damage per second gain for acquiring one additional point in each stat. These are beneficial to determine which stats are most useful for a character, but is not to be relied on heavily as stat weights change constantly based on other stat values.
-</br>
 Below the stat weight panel is a panel titled "Pawn String" with text inside. This allows users to copy a stat weight string to an in-game addon that shows upgrades based on current stat weights.
 
 
